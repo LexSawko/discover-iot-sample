@@ -3,6 +3,6 @@ applications:
   host: greenhouse-travel
   name: greenhouse-travel
   path: greenhouse-travel.war
-  domain: au-syd.mybluemix.net
+  domain: eu-gb.mybluemix.com
   instances: 1
   memory: 2048M
