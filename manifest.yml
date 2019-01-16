@@ -1,8 +1,10 @@
 applications:
-- disk_quota: 2048M
-  host: greenhouse-travel
-  name: greenhouse-travel
-  path: greenhouse-travel.war
-  domain: eu-gb.mybluemix.com
+- services:
+  - discover-iot-try-service
+  name: discover-iot-try
+  disk: 128M
+  command: node app.js
+  path: .
+  domain: eu-gb.mybluemix.net
+  memory: 48M
   instances: 1
-  memory: 2048M
